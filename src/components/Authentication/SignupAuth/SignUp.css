@@ -1,0 +1,52 @@
+.signup-main {
+    align-items: center;
+}
+
+.signup-content {
+    width: 400px;
+}
+
+.signup-btn {
+    width: 250px;
+    height: 50px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.text-input {
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.signup-heading {
+    padding: 10px;
+    color: orange;
+    text-align: center;
+}
+
+.lower {
+    margin: 10px;
+}
+
+.main-form {
+    align-items: center;
+    text-align: lefts;
+}
+
+.error_msg {
+    width: 250px;
+    padding: 15px;
+    margin: 5px 0;
+    font-size: 14px;
+    background-color: orange;
+    border-radius: 5px;
+    text-align: center;
+}

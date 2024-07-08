@@ -1,0 +1,96 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 12vh;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+    margin-left: 3rem;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 700;
+}
+
+.nav a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.nav-links li:hover {
+    color: orange;
+}
+
+.logo {
+    color: orange;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+
+/* HAMBURGER MENU */
+
+.hamburger {
+    display: none;
+}
+
+.cart-img {
+    height: 35px;
+    width: 35px;
+}
+
+.logout-btn {
+    background-color: orange;
+    height: 35px;
+    width: 70px;
+    border: none;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: 800;
+    text-align: center;
+}
+
+
+/* MEDIA QUERY -- RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+    .nav-links a {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .nav-links {
+        display: none;
+    }
+    .show-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        height: 50vh;
+        width: 100%;
+        background-color: black;
+        z-index: 10;
+        top: 0;
+        left: 0;
+    }
+    .nav-links li {
+        margin: 1rem 0;
+    }
+    .nav-links a {
+        color: white;
+        margin-left: 0;
+    }
+    .hamburger {
+        display: flex;
+        z-index: 10;
+    }
+}

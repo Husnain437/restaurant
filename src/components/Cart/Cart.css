@@ -1,0 +1,34 @@
+.cart-btn {
+    width: 40%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    margin-left: 10px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.cart {
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    margin: auto;
+}
+
+.checkout {
+    text-align: center;
+    align-items: center;
+}
+
+.total {
+    margin: 30px auto;
+}
+
+.cart-heading {
+    text-align: center;
+    margin: 40px;
+    color: orange;
+}

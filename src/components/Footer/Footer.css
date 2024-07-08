@@ -1,0 +1,29 @@
+footer {
+    text-align: center;
+    padding: 4rem 0 2rem;
+    background-color: orange;
+    margin-top: 5rem;
+}
+
+.copyright {
+    color: rgb(32, 32, 32);
+}
+
+.copyright span {
+    margin-left: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+    footer span {
+        margin-bottom: 2rem;
+    }
+    .copyright span {
+        margin-left: 0;
+    }
+    footer p {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+}

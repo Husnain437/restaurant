@@ -1,0 +1,29 @@
+.main-cart {
+    width: 100%;
+    text-align: center;
+    background-color: orange;
+    margin-bottom: 2%;
+}
+
+.cart-item {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    background-color: orange;
+    align-items: center;
+}
+
+.prod-img {
+    height: 90px
+}
+
+.cart-item-img {
+    height: 90px;
+    width: 100px;
+}
+
+.in-text {
+    text-align: center;
+}
